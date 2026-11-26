@@ -1,0 +1,22 @@
+[project]
+name = "har-noise"
+version = "1.0.0"
+description = "CSE 555 Track 2: noise resilience of dimensionality reduction on UCI HAR"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy==2.5.3",
+    "scipy==1.18.1",
+    "scikit-learn==1.9.1",
+    "pandas==3.0.5",
+    "matplotlib==3.11.2",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.0", "ruff>=0.6", "jupyter>=1.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 110
