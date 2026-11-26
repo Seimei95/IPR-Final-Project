@@ -1,0 +1,151 @@
+{
+  "python": "3.14.3",
+  "numpy": "2.5.3",
+  "sklearn": "1.9.1",
+  "pandas": "3.0.5",
+  "machine": "macOS-27.2.1-arm64-arm-64bit-Mach-O",
+  "quick": false,
+  "rank_Sw": 470,
+  "ica_final_iterations": {
+    "ica10": 45,
+    "ica20": 1000,
+    "ica50": 112,
+    "ica100": 50
+  },
+  "best_params": {
+    "none": {
+      "knn": {
+        "n_neighbors": 11
+      },
+      "svm": {
+        "C": 0.1
+      },
+      "gnb": {
+        "var_smoothing": 0.01
+      }
+    },
+    "pca10": {
+      "knn": {
+        "n_neighbors": 11
+      },
+      "svm": {
+        "C": 1.0
+      },
+      "gnb": {
+        "var_smoothing": 1e-09
+      }
+    },
+    "pca20": {
+      "knn": {
+        "n_neighbors": 11
+      },
+      "svm": {
+        "C": 1.0
+      },
+      "gnb": {
+        "var_smoothing": 1e-09
+      }
+    },
+    "pca50": {
+      "knn": {
+        "n_neighbors": 11
+      },
+      "svm": {
+        "C": 1.0
+      },
+      "gnb": {
+        "var_smoothing": 1e-09
+      }
+    },
+    "pca100": {
+      "knn": {
+        "n_neighbors": 11
+      },
+      "svm": {
+        "C": 0.01
+      },
+      "gnb": {
+        "var_smoothing": 1e-05
+      }
+    },
+    "ica10": {
+      "knn": {
+        "n_neighbors": 11
+      },
+      "svm": {
+        "C": 1.0
+      },
+      "gnb": {
+        "var_smoothing": 0.01
+      }
+    },
+    "ica20": {
+      "knn": {
+        "n_neighbors": 11
+      },
+      "svm": {
+        "C": 1.0
+      },
+      "gnb": {
+        "var_smoothing": 0.01
+      }
+    },
+    "ica50": {
+      "knn": {
+        "n_neighbors": 11
+      },
+      "svm": {
+        "C": 1.0
+      },
+      "gnb": {
+        "var_smoothing": 0.01
+      }
+    },
+    "ica100": {
+      "knn": {
+        "n_neighbors": 5
+      },
+      "svm": {
+        "C": 0.01
+      },
+      "gnb": {
+        "var_smoothing": 0.01
+      }
+    },
+    "lda5": {
+      "knn": {
+        "n_neighbors": 11
+      },
+      "svm": {
+        "C": 1.0
+      },
+      "gnb": {
+        "var_smoothing": 0.01
+      }
+    },
+    "pca100-lda5": {
+      "knn": {
+        "n_neighbors": 11
+      },
+      "svm": {
+        "C": 1.0
+      },
+      "gnb": {
+        "var_smoothing": 0.01
+      }
+    }
+  },
+  "leakage": {
+    "official_split_acc": 0.9667458432304038,
+    "random_split_acc_mean": 0.9854767560230744,
+    "random_split_acc_std": 0.0012587198500842616
+  },
+  "pca_cum_var": {
+    "2": 0.6746746270487955,
+    "10": 0.8050387180555189,
+    "20": 0.857847111550029,
+    "50": 0.9308630670765489,
+    "100": 0.9730111912685048
+  },
+  "runtime_s": 123.2
+}
